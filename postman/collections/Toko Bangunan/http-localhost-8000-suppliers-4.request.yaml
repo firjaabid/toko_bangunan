@@ -1,0 +1,25 @@
+$kind: http-request
+name: http://localhost:8000/suppliers/4
+description: ""
+url: http://localhost:8000/suppliers/4
+method: PUT
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"contact_person\": \"Dimas Surya Updated\",\r
+
+    \  \"city\": \"Bandung\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: admin_bangunan
+    password: tokobangunan123
+order: 5000

@@ -1,0 +1,39 @@
+$kind: http-request
+name: http://localhost:8000/suppliers
+description: ""
+url: http://localhost:8000/suppliers
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"code\": \"SUP-003\",\r
+
+    \  \"company_name\": \"PT Jayadi Abadi\",\r
+
+    \  \"contact_person\": \"Dimas Surya\",\r
+
+    \  \"email\": \"Dimsz@jayaabadi.co.id\",\r
+
+    \  \"phone\": \"081234567430\",\r
+
+    \  \"address\": \"Jl. Cibeber No. 10\",\r
+
+    \  \"city\": \"Cimahi\",\r
+
+    \  \"province\": \"Jawa Barat\",\r
+
+    \  \"npwp\": \"01.234.567.8-421.033\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: admin_bangunan
+    password: tokobangunan123
+order: 3000

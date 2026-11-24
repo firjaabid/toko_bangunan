@@ -1,0 +1,10 @@
+$kind: http-request
+name: http://localhost:8000/materials
+description: ""
+url: http://localhost:8000/materials?supplier_id=1
+method: GET
+headers:
+  Accept: application/json
+queryParams:
+  supplier_id: "1"
+order: 8000

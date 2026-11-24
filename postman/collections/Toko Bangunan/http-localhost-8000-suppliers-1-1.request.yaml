@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:8000/suppliers/1
+description: ""
+url: http://localhost:8000/suppliers/1
+method: GET
+headers:
+  Accept: application/json
+order: 4000

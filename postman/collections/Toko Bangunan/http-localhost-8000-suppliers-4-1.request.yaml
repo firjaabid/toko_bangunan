@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:8000/suppliers/4
+description: ""
+url: http://localhost:8000/suppliers/4
+method: DELETE
+headers:
+  Accept: application/json
+auth:
+  type: basic
+  credentials:
+    password: tokobangunan123
+    username: admin_bangunan
+order: 6000

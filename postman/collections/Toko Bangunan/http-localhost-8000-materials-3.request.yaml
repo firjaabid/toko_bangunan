@@ -1,0 +1,33 @@
+$kind: http-request
+name: http://localhost:8000/materials
+description: ""
+url: http://localhost:8000/materials
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"supplier_id\": 2,\r
+
+    \  \"sku\": \"MAT-SMN-002\",\r
+
+    \  \"name\": \"Semen Portland 40kg\",\r
+
+    \  \"category\": \"Semen\",\r
+
+    \  \"unit\": \"Sak\",\r
+
+    \  \"price\": 62000,\r
+
+    \  \"stock\": 150\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: admin_bangunan
+    password: tokobangunan123
+order: 9000

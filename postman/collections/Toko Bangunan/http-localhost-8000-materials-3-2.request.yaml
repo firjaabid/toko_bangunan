@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://localhost:8000/materials/3
+description: ""
+url: http://localhost:8000/materials/3
+method: PUT
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"price\": 67000,\r
+
+    \  \"stock\": 120\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    password: tokobangunan123
+    username: admin_bangunan
+order: 11000
